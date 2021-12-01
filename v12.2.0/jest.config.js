@@ -5,7 +5,7 @@ module.exports = {
       'jest-junit',
       {
         outputDirectory: 'reports',
-        outputFile: 'jest-junit.xml',
+        outputName: 'jest-junit.xml',
         noStackTrace: true,
       },
     ],
